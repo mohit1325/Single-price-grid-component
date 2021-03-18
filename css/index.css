@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-left:250px;
+    margin-top:100px;
+}
+.item--community{
+    flex:0 1 100%;
+    background-color: white;
+    border-radius: 0.5em;
+}
+.item--monthly-subscription{
+    flex:0 1 50%;
+    background-color:hsl(179, 62%, 43%);
+    border-bottom-left-radius: 0.5em;
+}
+.item--why-us{
+    flex:0 1 50%;
+    background-color:hsl(179, 61%, 46%);
+    border-bottom-right-radius: 0.5em;
+}
+.container--flex_width{
+    width: 600px;
+    height: 400px;
+}
+.para{
+    font-family: 'Karla', sans-serif;
+}
+.para-font_16{
+    font-size: 18px;
+}
+.para-font_14{
+    font-size: 14px;
+}
+.para-font_18{
+    font-size: 22px;
+}
+.para-font_blue{
+    color:hsl(179, 62%, 43%)
+}
+.para-font_cyan{
+    color:hsl(71, 73%, 54%)
+}
+.para-font_gray{
+    color:hsl(218, 22%, 67%)
+}
+.para-font_wt_400{
+    font-weight: 400;
+}
+.para-font_wt_700{
+    font-weight: 700;
+}
+.body_color_blue{
+    background-color: hsl(204, 43%, 93%);
+}
+.para-font_white{
+    color:white;
+}
+.wrapper--div{
+    padding-left:30px;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-right:30px;
+}
+.btn{
+    padding:15px;
+}
+.btn-cyan{
+    background-color:hsl(71, 73%, 54%);
+    border: none;
+    color:white;
+}
+.btn--big{
+    font-size:16px;
+    width:100%;
+}
+.para-font_22{
+    font-size:24px;
+}
+.para-font_grblue{
+    color:lightblue;
+}
+.para-font_upper{
+    vertical-align: super;
+    margin-top:0.2em;
+}
